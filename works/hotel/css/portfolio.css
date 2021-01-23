@@ -35,6 +35,12 @@
   color: #323132;
   line-height: 1.2;
 }
+@media screen and (max-width:768px) {
+  .portfolio-txt{
+    overflow-y: scroll;
+    font-size: 1.6rem;
+  }
+}
 .portfolio>span{
   color: #EDED45;
   font-size: 1.8rem;
