@@ -23,8 +23,7 @@
   top: 50%;
   left: 50%;
   width: 60%;
-  min-height: 60%;
-  height: auto;
+  height: 60%;
   transform: translate3d(-50%,-50%,0);
   transition: all .05s;
   transition-timing-function: cubic-bezier(1, 0, .5, 1);
@@ -35,6 +34,12 @@
   font-size: 3.2rem;
   color: #323132;
   line-height: 1.2;
+}
+@media screen and (max-width:768px) {
+  .portfolio-txt{
+    overflow-y: scroll;
+    font-size: 1.6rem;
+  }
 }
 .portfolio>span{
   color: #EDED45;
