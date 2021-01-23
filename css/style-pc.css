@@ -24,9 +24,14 @@ h2{
 /* --------------
 * section
 *------------- */
+.work-list {
+  max-width:1200px;
+  margin: 0 auto;
+}
 .work-list>li {
   width: 25%;
   height: 30vw;
+  max-height: 360px;
   font-size: 3rem;
   line-height: 1.5;
 }
