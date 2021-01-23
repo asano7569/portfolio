@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Hotel HOGE</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:type" content="website">
+<meta property="og:url" content="#">
+<meta property="og:site_name" content="">
+<meta property="og:image" content="img/top1.jpg">
+<meta name="format-detection" content="telephone=no">
+<link rel="canonical" href="#">
+<link rel="icon" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/favicon.png">
+<link rel="shortcut icon" href="img/favicon.png">
+<!-- Google font -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700;900&display=swap" rel="stylesheet">
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/c7abe27115.js" crossorigin="anonymous"></script>
+<!-- CSS -->
+<link type="text/css" rel="stylesheet" href="css/reset.css">
+<link type="text/css" rel="stylesheet" href="css/style.css">
+<link type="text/css" rel="stylesheet" href="css/style-sp.css">
+<link type="text/css" rel="stylesheet" href="css/style-tb.css">
+
+<link type="text/css" rel="stylesheet" href="css/portfolio.css">
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<!-- delighter -->
+<script type="text/javascript" src="js/delighters.js"></script>
+<!-- script -->
+<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+
+<!-- ↓ポートフォリオ用 -->
+<button class="portfolio"><span class="fas fa-hand-point-up"></span>ポートフォリオの<span>説明</span></button>
+<div class="portfolio-txt">
+  <dl>
+    <dt class="accent">概要</dt>
+    <dd>
+      架空の都内のビジネスホテルのサイト。<br>
+      清潔感やくつろげそうな雰囲気を表現するために要素の動きを ややゆったりにしました。
+    </dd>
+  </dl>
+  <dl>
+    <dt class="accent">クライアントの想定</dt>
+    <dd>
+      <span class="client-name">鈴木孝志</span> <br>
+      都内に出張に来たサラリーマン(30代男性) <br>
+      できるだけ安く、銀座へのアクセスがいいホテルを探している <br>
+      アメニティが充実していると嬉しい
+    </dd>
+    <dd>
+      <span class="client-name">Amanda Sanderson</span> <br>
+      海外から観光に来た旅行者（20代女性）<br>
+      観光のガイドが欲しい<br>
+
+    </dd>
+  </dl>
+</div>
+<script type="text/javascript">
+  $(function(){
+    $(".portfolio").on("click",function(){
+        $(this).toggleClass("active");
+    });
+  });
+</script>
+<!-- ↑ポートフォリオ用 -->
+
+<header class="header">
+  <a id="menu" class="btn-trigger" href="#open">
+    <span></span>
+    <span></span>
+    <span></span>
+  </a>
+  <nav class="nav">
+    <div class="bg-footer bgc">
+      <div>
+        <ul class="locations flex">
+          <li><a href="#">Top</a></li>
+          <li><a href="/place1">HOTEL A</a></li>
+          <li><a href="/place2">HOTEL B</a></li>
+        </ul>
+        <ul class="languages flex">
+          <li><a href="#" class="here">Japanese</a></li>
+          <li><a href="en/index.html">English</a></li>
+          <li><a href="ch/index.html">Chinese</a></li>
+          <li><a href="kr/index.html">Korean</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="contact">
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#"><span class="fas fa-phone"></span></a></li>
+          <li><a href="#"><span class="far fa-envelope"></span></a></li>
+          <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bg-header bgc">
+      <ul class="top-nav flex">
+        <li><a href="#about">ホテル概要</a></li>
+        <li><a href="#hostel">施設案内</a></li>
+        <li><a href="#service">サービス</a></li>
+        <li><a href="#rooms">お部屋紹介</a></li>
+        <!--
+        <li><a href="#plan">宿泊プラン</a></li>
+        -->
+        <li><a href="#access">アクセス</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<main>
+  <section class="section-top sections">
+    <h1><img src="img/logo.png" alt="ホテル丸忠" class="top-logo"></h1>
+    <a href="#" class="top-booking">会員登録</a>
+  </section>
+  <!-- ホテル概要 -->
+  <section class="section-2nd sections about" id="about">
+    <div class="section-container body-flex">
+      <div class="article-wrap" data-delighter>
+        <h2>Hotel HOGE</h2>
+        <p>東京の格安ビジネスホテル ホテル穂外。東京 秋葉原 新宿 渋谷 銀座 好アクセス。周辺にはコンビニエンスストア、ファミリーレストラン等があります。館内無料Wi-Fiあり！<br>ロビーにはインターネット接続PCもあり設備が充実しています。</p>
+      </div>
+      <ul class="box-list body-flex">
+        <li>
+          <div class="wrap" data-delighter>
+            <p>ホームページ予約特典！<br>
+            ・ポイントシステム<br>
+            ・最低価格保証<br>
+            ・アメニティ無料交換<br>
+            ・会員限定プラン</p>
+          </div>
+        </li>
+        <li id="trip">
+          <div class="wrap" data-delighter>
+            <p>周辺観光<br>
+            ・浅草(電車で20分)<br>
+            ・秋葉原(電車で10分)<br>
+            ・上野(電車で6分)<br>
+            ・ディズニーランド(電車で50分)</p>
+          </div>
+        </li>
+        <li id="place1">
+          <a class="wrap" data-delighter href="/place1">
+            <p>店舗Ⅰ <br>
+            東京都荒川区南千住 <br>
+            X丁目Y番地Z号</p>
+          </a>
+        </li>
+        <li id="place2">
+          <a class="wrap" data-delighter href="/place2">
+            <p>店舗Ⅱ <br>
+            東京都荒川区南千住 <br>
+            A丁目B番地C号</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- 施設案内 -->
+  <section class="section-2nd sections" id="hostel">
+    <div class="section-container body-flex">
+      <div class="article-wrap"  data-delighter>
+        <h2>館内施設案内</h2>
+        <p>24時間フロントと、大浴場・シャワールーム（２４時間利用）、大型洗濯機１台、小型洗濯機２台、乾燥機２台設置等、充実した設備。</p>
+      </div>
+      <ul class="box-list body-flex">
+        <li id="front">
+          <div class="wrap" data-delighter>
+            <p>フロントは２４時間OPEN。<br>
+              チェックイン・アウトのほか、各種備品の無料貸出サービス、観光・出張ガイド、周辺情報、お荷物のお預かり、宅配便発送手配、受け取りなど承っております</p>
+          </div>
+        </li>
+        <li id="bath">
+          <div class="wrap" data-delighter>
+            <p>１F 大浴場<br>
+              旅のお疲れ、お仕事のお疲れを癒します。広々とした開放的な大浴場です。朝風呂もご用意しております。</p>
+          </div>
+        </li>
+        <li id="floor">
+          <a class="wrap" data-delighter href="#">
+            <p>客室<br>
+              ・8F~9F 女性専用フロアー完備<br>
+              ・シングル和室（禁煙・喫煙）<br>
+              ・シングル洋室（禁煙・喫煙）<br>
+              ・ツイン（和室、禁煙のみ）</p>
+          </a>
+        </li>
+        <li id="amenity">
+          <a class="wrap" data-delighter href="#">
+            <p>各フロアに電子レンジ、ポット設置、<br>
+            ズボンプレッシャー設置、<br>
+            ウォシュレット付洋式トイレ、<br>
+            客室インターネット(無線・有線ＬＡＮ）</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- サービス -->
+  <section class="section-2nd sections" id="service">
+    <div class="section-container body-flex">
+      <div class="article-wrap" data-delighter>
+        <h2>充実の<br class="br-sp">各種サービス</h2>
+        <p>当ホテルは24時間営業です。<br>
+        快適なホテルライフのお手伝いとして、各種備品の無料貸出サービスや、客室インターネット有線＆無線LAN、ロビーには２４時間無料でお使い頂けるPC３台とプリンター１台もございます！</p>
+      </div>
+      <ul class="box-list body-flex">
+        <li id="mail">
+          <div class="wrap" data-delighter>
+            <p>フロントではチェックイン・アウトのほか、各種備品の無料貸出サービス、観光・出張ガイド、周辺情報、お荷物のお預かり、宅配便発送手配なども承っております。</p>
+          </div>
+        </li>
+        <li id="washroom">
+          <a class="wrap" data-delighter href="#">
+            <p>各フロア <br>
+            洗面所（電子レンジ、給湯器） 、<br>
+            トイレ（ウォシュレット付洋式トイレ）、<br>
+            全室高速光回線を敷設しております。<br>
+            無線ＬＡＮのご利用方法についてはフロントスタッフにお声がけ下さい。</p>
+          </a>
+        </li>
+        <li id="shower">
+          <a class="wrap" data-delighter href="#">
+            <p>１F シャワールーム　無料<br>
+              ２４時間ご利用いただけます。<br>
+              当ホテルのシャワールームは使用後に自動洗浄を行いますので常に清潔を保っております。<br>
+              また、脱衣所とシャワー室が独立しておりますので衣類が濡れる心配がありません。</p>
+          </a>
+        </li>
+        <li id="laundry">
+          <div class="wrap" data-delighter>
+            <p>２F コインランドリー<br>
+              洗濯機４台、乾燥機４台設置<br>
+              いずれも24時間ご利用いただけます。  <br>
+              また、洗剤はフロントにて販売しております。</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- お部屋紹介 -->
+  <section class="section-2nd sections" id="rooms">
+    <div class="section-container body-flex">
+      <div class="article-wrap" data-delighter>
+        <h2>お部屋の種類</h2>
+        <p>個室・さらに、館内はすべて無線LAN・有線LAN対応、20インチ大型液晶テレビ(全室)、冷蔵庫(全室)、エアコン(全室)完備です。</p>
+      </div>
+      <ul class="box-list body-flex">
+        <li id="yousingle">
+          <div class="wrap" data-delighter>
+            <p><span class="gold">シングルルーム 洋室 </span><br>
+              洋室は全室シングルサイズのベッドを用意しております。 <br>
+              羽毛布団とあわせて、ごゆっくりお休みください。</p>
+          </div>
+        </li>
+        <li id="wasingle">
+          <div class="wrap" data-delighter>
+            <p><span class="gold">シングルルーム 和室</span><br>
+            くつろぐには、やっぱり畳でなきゃ！というお客様に和室タイプのお部屋もご用意しております。<br>
+            ごゆっくりお休みください。</p>
+          </div>
+        </li>
+        <li id="watwin">
+          <a class="wrap" data-delighter href="#">
+            <p><span class="gold">ツインルーム 和室</span><br>
+            ツインルームは和室のみとなっております。<br>
+            広々としたスペースでお寛ぎ下さいませ。</p>
+          </a>
+        </li>
+        <li id="female">
+          <a class="wrap" data-delighter href="#">
+            <p><span class="gold">女性専用フロア</span><br>
+            １０Fの高層フロアーで景観もお楽しみ頂けます。<br>
+            客室には、ドライヤー・目覚まし時計・電気スタンド・お洒落なスタンドミラーをご用意。</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- アクセス -->
+  <section class="section-2nd sections" id="access">
+    <div class="section-container body-flex">
+      <div class="article-wrap" data-delighter>
+        <h2>交通・アクセス</h2>
+        <p>東京の格安ビジネスホテル ホテル穂外。東京 秋葉原 新宿 渋谷 銀座 好アクセス。<br><br>
+        電車でおこしのお客様<br>
+        JR常磐線南千住駅南口下車 徒歩4分<br>
+        東京メトロ日比谷線南千住駅 徒歩3分<br><br>
+        バスでおこしのお客様<br>
+        南千住バス停より 1分<br>
+        南千住駅東口バス停 7分</p>
+      </div>
+      <div class="box-list body-flex map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.8884344236712!2d139.8011761507137!3d35.72896222872181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ef04bb07acf%3A0x8b3dee2d3818adbc!2z44CSMTExLTAwMjIg5p2x5Lqs6YO95Y-w5p2x5Yy65riF5bed77yS5LiB55uu77yT77yX4oiS77yX!5e0!3m2!1sja!2sjp!4v1610774555786!5m2!1sja!2sjp" class="iframe" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </div>
+  </section>
+  <!-- お問い合わせ -->
+  <section class="sections" id="contact">
+    <h2>お問い合わせフォーム</h2>
+    <div class="Form">
+      <div class="Form-Item">
+        <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>氏名</p>
+        <input type="text" class="Form-Item-Input" placeholder="例）山田太郎">
+      </div>
+      <div class="Form-Item">
+        <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>電話番号</p>
+        <input type="text" class="Form-Item-Input" placeholder="例）000-0000-0000">
+      </div>
+      <div class="Form-Item">
+        <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
+        <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
+      </div>
+      <div class="Form-Item">
+        <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
+        <textarea class="Form-Item-Textarea"></textarea>
+      </div>
+      <input type="submit" class="Form-Btn" value="送信する">
+    </div>
+  </section>
+</main>
+<footer>
+
+</footer>
+</body>
+</html>

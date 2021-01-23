@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+/*--- CSS ---*/
+:root {
+  --font-color: #323132;
+  --bg-color: #FEFFFF;
+  --main-color: #3FA8F5;
+  --sub-color: #EDED45;
+}
+
+@font-face {
+    font-family: 'DotGothic16-Regular';
+    src: url('../font/DotGothic16-Regular.ttf');
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Noto sans JP';
+  background-color: var(--bg-color);
+  letter-spacing: .1em;
+}
+body {
+  font-size: 1.6rem;
+  color: var(--font-color);
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+h1 {
+  font-size: 4.2rem;
+  margin-bottom: 8px;
+  color: var(--sub-color);
+}
+h2 {
+  font-size: 2.6rem;
+  text-align: center;
+  line-height: 3;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+/* -------------
+* header
+*--------------*/
+.header{
+  color: #ffffff;
+  background-color: var(--main-color);
+  padding: 12px 40px;
+  font-family: 'DotGothic16-Regular';
+}
+.header p{
+  font-size: 2.4rem;
+  letter-spacing: .1em;
+}
+
+
+/* --------------
+* section
+*------------- */
+.work-list {
+  padding: 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.work-list>li {
+  display: block;
+  width: 50%;
+  height: 230px;
+  background-color: #dddddd;
+  border: 3px solid var(--bg-color);
+  box-sizing: border-box;
+  font-family:'Noto sans JP';
+  line-height: 1;
+}
+.work-list>li::after{
+  content: "coming soon...";
+  font-family: 'DotGothic16-Regular';
+  letter-spacing: .1em;
+  display: inline;
+  line-height: 200px;
+  color: #aaaaaa;
+}
+.work-list>li>a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+a#work1{
+  background-color: #0E3566;
+  height: 100%;
+  text-align: center;
+}
+.work-list a>img {
+  width: 90%;
+  padding: 10px 0;
+}
+a#work2{
+  background-color: #004832;
+}
+
+/* ---------------
+* footer
+*-------------- */

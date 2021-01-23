@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/*--- CSS ---*/
+.portfolio{
+  background-color: #3FA8F5;
+  border: solid 1px #333333;
+  border-radius: .5em;
+  color: #feffff;
+  position: fixed;
+  display: block;
+  z-index: 1001;
+  top:12%;
+  left:20%;
+  padding: .5em 1em;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: .05em;
+}
+.portfolio-txt {
+  position: fixed;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  min-height: 60%;
+  height: auto;
+  transform: translate3d(-50%,-50%,0);
+  transition: all .05s;
+  transition-timing-function: cubic-bezier(1, 0, .5, 1);
+  background-color: #feffff;
+  border: solid 1px #000;
+  border-radius: 40px;
+  padding: 40px;
+  font-size: 3.2rem;
+  color: #323132;
+  line-height: 1.2;
+}
+.portfolio>span{
+  color: #EDED45;
+  font-size: 1.8rem;
+}
+span.fas{
+  margin-right: .4em;
+  color: #fff;
+}
+.portfolio-txt .accent{
+  color: #3FA8F5;
+}
+.portfolio.active{
+  opacity: .2;
+}
+@media screen and (min-width: 768px) {
+  .portfolio.active:hover {
+    opacity: 1;
+  }
+
+}
+.portfolio.active+.portfolio-txt{
+  transform: translate3d(100%,-50%,0);
+}
+
+.portfolio-txt dl{
+  margin-bottom: 50px;
+}
+.portfolio-txt dt{
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+.portfolio-txt dd{
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+.client-name {
+  font-weight: bold;
+  font-size: 2rem;
+}

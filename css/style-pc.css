@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+
+@media screen and (min-width: 450px) {
+
+/*--- CSS ---*/
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+h2{
+  font-size: 4.2rem;
+}
+/* -------------
+* header
+*--------------*/
+
+/* --------------
+* section
+*------------- */
+.work-list>li {
+  width: 25%;
+  height: 30vw;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.work-list>li::after{
+  line-height: 30vw;
+}
+/* ---------------
+* footer
+*-------------- */
+
+}
