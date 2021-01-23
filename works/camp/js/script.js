@@ -16,18 +16,20 @@
 
 
 //-------------ハンバーガーメニュー---------------
-$(".header-menu").on("touchstart", function(){
-	var display = getComputedStyle(document.documentElement).getPropertyValue('--display-menu');
+$(function(){
+  $(".header-menu").on("touchstart", function(){
+  	var display = getComputedStyle(document.documentElement).getPropertyValue('--display-menu');
 
-	$(this).toggleClass("active");
+  	$(this).toggleClass("active");
 
-	if(display == "block"){
-		document.documentElement.style.setProperty('--display-menu',"none");
-	}else{
-		document.documentElement.style.setProperty('--display-menu',"block");
-	}
+  	if(display == "block"){
+  		document.documentElement.style.setProperty('--display-menu',"none");
+  	}else{
+  		document.documentElement.style.setProperty('--display-menu',"block");
+  	}
 
 
+  });
 });
 
 
