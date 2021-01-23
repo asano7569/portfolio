@@ -27,7 +27,7 @@ img {
   height: auto;
 }
 h1 {
-  font-size: 4.2rem;
+  font-size: 6.4rem;
   margin-bottom: 8px;
   color: var(--sub-color);
 }
@@ -58,6 +58,9 @@ a{
 /* --------------
 * section
 *------------- */
+.main{
+  padding-bottom: 80px;
+}
 .work-list {
   padding: 0 10px;
   display: flex;
@@ -103,3 +106,17 @@ a#work2{
 /* ---------------
 * footer
 *-------------- */
+.footer{
+  background-color: #333;
+  color: #feffff;
+  padding: 50px 0;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+#mail::after{
+  content:"tomohiro7569@gmail.com";
+}
+#tel::after{
+  content: "090-6073-0806";
+}
