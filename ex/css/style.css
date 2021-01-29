@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/*--- CSS ---*/
+html {
+  font-size: 62.5%;
+  background-color: #333;
+}
+body {
+  font-size: 1.6rem;
+}
+img {
+  height: auto;
+}
+ul{
+  padding-left: 0;
+}
+li {
+  list-style: none;
+}
+
+
+.img-list {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.img-list>li{
+  width: 100vw;
+  padding: 0 30px;
+  box-sizing: border-box;
+  height: auto;
+}
+ul.img-list>li>.img {
+  width: 70.715vh;
+  height: 93vh;
+}
