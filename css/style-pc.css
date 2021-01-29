@@ -24,7 +24,7 @@ h2{
 /* --------------
 * section
 *------------- */
-.work-list {
+.work-list,.pdf-link {
   max-width:1200px;
   margin: 0 auto;
 }
@@ -36,7 +36,8 @@ h2{
   line-height: 1.5;
 }
 .work-list>li::after{
-  line-height: 30vw;
+  padding: 10vw 0;
+  line-height: 1.5;
 }
 /* ---------------
 * footer
