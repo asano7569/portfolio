@@ -62,7 +62,7 @@ span.fas{
 
 }
 .portfolio.active+.portfolio-txt{
-  transform: translate3d(100%,-50%,0);
+  opacity: 0;
 }
 
 .portfolio-txt dl{
