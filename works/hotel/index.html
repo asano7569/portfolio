@@ -31,46 +31,49 @@
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 <!-- delighter -->
-<script type="text/javascript" src="js/delighters.js"></script>
+<script src="js/delighters.js"></script>
 <!-- script -->
-<script type="text/javascript" src="js/script.js"></script>
+<script src="js/script.js"></script>
 
 </head>
 <body>
 
 <!-- ↓ポートフォリオ用 -->
-<button class="portfolio"><span class="fas fa-hand-point-up"></span>ポートフォリオの<span>説明</span></button>
-<div class="portfolio-txt">
-  <dl>
-    <dt class="accent">概要</dt>
-    <dd>
-      架空の都内のビジネスホテルのサイト。<br>
-      清潔感やくつろげそうな雰囲気を表現するために要素の動きを ややゆったりにしました。
-    </dd>
-  </dl>
-  <dl>
-    <dt class="accent">クライアントの想定</dt>
-    <dd>
-      <span class="client-name">鈴木孝志</span> <br>
-      都内に出張に来たサラリーマン(30代男性) <br>
-      できるだけ安く、銀座へのアクセスがいいホテルを探している <br>
-      アメニティが充実していると嬉しい
-    </dd>
-    <dd>
-      <span class="client-name">Amanda Sanderson</span> <br>
-      海外から観光に来た旅行者（20代女性）<br>
-      観光のガイドが欲しい<br>
+<div class="deleateme">
 
-    </dd>
-  </dl>
-</div>
-<script type="text/javascript">
-  $(function(){
-    $(".portfolio").on("click",function(){
-        $(this).toggleClass("active");
+  <button class="portfolio"><span class="fas fa-hand-point-up"></span>ポートフォリオの<span>説明</span></button>
+  <div class="portfolio-txt">
+    <dl>
+      <dt class="accent">概要</dt>
+      <dd>
+        架空の都内のビジネスホテルのサイト。<br>
+        清潔感やくつろげそうな雰囲気を表現するために要素の動きを ややゆったりにしました。
+      </dd>
+    </dl>
+    <dl>
+      <dt class="accent">クライアントの想定</dt>
+      <dd>
+        <span class="client-name">鈴木孝志</span> <br>
+        都内に出張に来たサラリーマン(30代男性) <br>
+        できるだけ安く、銀座へのアクセスがいいホテルを探している <br>
+        アメニティが充実していると嬉しい
+      </dd>
+      <dd>
+        <span class="client-name">Amanda Sanderson</span> <br>
+        海外から観光に来た旅行者（20代女性）<br>
+        観光のガイドが欲しい<br>
+
+      </dd>
+    </dl>
+  </div>
+  <script>
+    $(function(){
+      $(".portfolio").on("click",function(){
+          $(this).toggleClass("active");
+      });
     });
-  });
-</script>
+  </script>
+</div>
 <!-- ↑ポートフォリオ用 -->
 
 <header class="header">
@@ -302,7 +305,7 @@
         南千住駅東口バス停 7分</p>
       </div>
       <div class="box-list body-flex map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.8884344236712!2d139.8011761507137!3d35.72896222872181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ef04bb07acf%3A0x8b3dee2d3818adbc!2z44CSMTExLTAwMjIg5p2x5Lqs6YO95Y-w5p2x5Yy65riF5bed77yS5LiB55uu77yT77yX4oiS77yX!5e0!3m2!1sja!2sjp!4v1610774555786!5m2!1sja!2sjp" class="iframe" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.8884344236712!2d139.8011761507137!3d35.72896222872181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ef04bb07acf%3A0x8b3dee2d3818adbc!2z44CSMTExLTAwMjIg5p2x5Lqs6YO95Y-w5p2x5Yy65riF5bed77yS5LiB55uu77yT77yX4oiS77yX!5e0!3m2!1sja!2sjp!4v1610774555786!5m2!1sja!2sjp" class="iframe"></iframe>
       </div>
     </div>
   </section>
